@@ -1,0 +1,27 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+Entity allu is
+	port(
+		A	: in  std_logic_vector (7 downto 0);
+		B	: in  std_logic_vector (7 downto 0); 
+		operacion: in  std_logic_vector(1 downto 0);
+		Resultado: out std_logic_vector(7 downto 0)
+	);
+end Entity;
+
+
+architecture desarrollo of allu is
+
+begin
+	with operacion select
+		Resultado <= A + B when "00",
+						 A - B when "01",
+						 A and B when "11",
+						 A or B when "10",
+		"00000000" when others;
+
+end desarrollo;
+

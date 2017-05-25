@@ -1,0 +1,46 @@
+-- Quartus II VHDL Template
+-- Single port RAM with single read/write address 
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity memoriaRam is
+	port 
+	(
+		clock	: in std_logic;
+		Address : in std_logic_vector(3 downto 0);
+		Data_in	: in std_logic_vector(31 downto 0);
+		Wr		: in std_logic;
+		Data_out		: out  std_logic_vector(31 downto 0)
+	);
+
+end memoriaRam;
+
+architecture memoriaDatos of memoriaRam is
+
+	-- Build a 2-D array type for the RAM
+	subtype word_t is std_logic_vector(31 downto 0);
+	type memory_t is array(15 downto 0) of word_t;
+
+	-- Declare the RAM signal.	
+	signal ram : memory_t;
+
+
+begin
+
+	process(clk)
+	begin
+	if(rising_edge(clk)) then
+		if(Wr = '1') then
+			ram(Address) <= Data_in;
+			else
+
+				data_out<=ram(Address);	
+		end if;
+	end if;
+end process;
+end memoriaDatos;
+
+
+
+

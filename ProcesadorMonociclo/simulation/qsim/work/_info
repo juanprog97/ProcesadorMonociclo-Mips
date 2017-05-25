@@ -1,0 +1,245 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Universidad\Arquitectura de computadora\ProyectoArquitectura\Componente-Procesador-Monociclo\simulation\qsim
+vprogramCounter
+Z1 ISXJ:EFZoAK4_@NImTFb9h1
+Z2 VBcMlnn=6;<bGQalb1gW;K0
+Z3 dC:\Users\juancard997\Desktop\arquitectura monociclo\Componente-Procesador-Monociclo\simulation\qsim
+Z4 w1495675988
+Z5 8procesadorMono.vo
+Z6 FprocesadorMono.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|procesadorMono.vo|
+Z9 o-work work -O0
+Z10 nprogram@counter
+!i10b 1
+Z11 !s100 j7Me_=kNAT2XOkhcA>W[:3
+!s85 0
+Z12 !s108 1495675990.090000
+Z13 !s107 procesadorMono.vo|
+!s101 -O0
+vprogramCounter_vlg_check_tst
+!i10b 1
+!s100 gjogOUMc;BYLL@L;b9@cG2
+I56ceCS;gmnMCljX[:@7JP0
+V_@b8DeXnOnUGgld:<G6RX0
+R3
+Z14 w1495675987
+Z15 8procesadorMono.vt
+Z16 FprocesadorMono.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z17 !s108 1495675990.368000
+Z18 !s107 procesadorMono.vt|
+Z19 !s90 -work|work|procesadorMono.vt|
+!s101 -O0
+R9
+nprogram@counter_vlg_check_tst
+vprogramCounter_vlg_sample_tst
+!i10b 1
+!s100 gFCV7;zJUAM;kQ^Q8kUjI3
+IdRK:OdcXLh9Hz:Z3LElZ93
+VjEN9e2SohS=m3d_6f7I<b3
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+nprogram@counter_vlg_sample_tst
+vprogramCounter_vlg_vec_tst
+!i10b 1
+!s100 `8BlAbhj_;KdH0JFi:FSJ1
+I2@Lij8LOA6zGQ@8YYFzBm2
+Vf=KOObl1S4gO6hNY4=>OZ2
+R3
+R14
+R15
+R16
+L0 693
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+nprogram@counter_vlg_vec_tst
+vregistrosFicheros
+Z20 !s100 WzSZbE2AR8ZD>DPnVC08J0
+Z21 ImNSh`]mU1@IK:VVleXO[93
+Z22 V>7bFMPbC1W9fJ8TDkWD2e1
+Z23 dD:\Universidad\Arquitectura de computadora\ProyectoArquitectura\Componente-Procesador-Monociclo\simulation\qsim
+Z24 w1479138218
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z25 nregistros@ficheros
+Z26 !s108 1479138219.327000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vregistrosFicheros_vlg_check_tst
+Z27 !s100 ]_X2g7Xk2b4fUnmd_9V6h2
+Z28 I3Nf0HKihz=Y:Ce6YPe]Na3
+Z29 V_d]D0S0kaizi;V7@mEboF0
+R23
+Z30 w1479138217
+R15
+R16
+L0 67
+R7
+r1
+31
+Z31 !s108 1479138220.080000
+Z32 !s107 procesadorMono.vt|
+R19
+R9
+Z33 nregistros@ficheros_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vregistrosFicheros_vlg_sample_tst
+Z34 !s100 gH?7GbWCZ=[Nd@BoI`fZf3
+Z35 I:=56?;5mKgz7hQ51dWQlB1
+Z36 VcJo98fPjEBoFHSAJI[l4:2
+R23
+R30
+R15
+R16
+L0 29
+R7
+r1
+31
+R31
+R32
+R19
+R9
+Z37 nregistros@ficheros_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vregistrosFicheros_vlg_vec_tst
+Z38 I[WmCgK[HU^C0IH<T>MzPH3
+Z39 VQ_W9^b202>Hd0`jkbX<;@1
+R23
+R30
+R15
+R16
+Z40 L0 1303
+R7
+r1
+31
+R31
+R32
+R19
+R9
+Z41 nregistros@ficheros_vlg_vec_tst
+Z42 !s100 BFLjF<SS_ebeh8D;>IZz@2
+!i10b 1
+!s85 0
+!s101 -O0
+vunidadControl
+Z43 !s100 WMAFg;@eZlAAU8ndSVSMd3
+Z44 I02dgkZ32ZOi6P[3n;8dE31
+Z45 VnSoTI^KH`WDe<e9gBPFli2
+R23
+Z46 w1479402989
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z47 nunidad@control
+Z48 !s108 1479402990.306000
+R13
+!i10b 1
+!s85 0
+!s101 -O0
+vunidadControl_vlg_check_tst
+Z49 !s100 _=i4UBzN410Il7B5QgZ]N2
+Z50 I[ai?;17_LLSMkN4bC]YzU3
+Z51 VS=caj>2kehllldN;<^Z>Z0
+R23
+R46
+R15
+R16
+L0 57
+R7
+r1
+31
+Z52 !s108 1479402990.530000
+R32
+R19
+R9
+Z53 nunidad@control_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vunidadControl_vlg_sample_tst
+Z54 !s100 jbSeaTASQVMMG]I@B@i773
+Z55 I7US_5i3U8S1n:K]NliaN23
+Z56 VIod_E=2AR[FK:M:F9=2;11
+R23
+R46
+R15
+R16
+L0 29
+R7
+r1
+31
+R52
+R32
+R19
+R9
+Z57 nunidad@control_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vunidadControl_vlg_vec_tst
+Z58 !s100 oSLWgjI5K]j>`TBH@U:B90
+Z59 I;L>z6PGIb0e>]:@E[AhK?3
+Z60 V4JPX3fVz``n;Pb7U9lRYS2
+R23
+R46
+R15
+R16
+Z61 L0 385
+R7
+r1
+31
+R52
+R32
+R19
+R9
+Z62 nunidad@control_vlg_vec_tst
+!i10b 1
+!s85 0
+!s101 -O0

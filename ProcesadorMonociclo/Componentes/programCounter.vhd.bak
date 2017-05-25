@@ -1,0 +1,25 @@
+LIBRARY IEEE;
+use ieee.std_logic_1164.all;
+
+entity programCounter is
+	port
+	(
+		-- Input ports
+		reset	: in  std_logic;
+		clock	: in  std_logic; 
+		cout  : out std_logic;
+		cin : in std_logic
+	);
+end programCounter;
+
+architecture contador of programCounter is
+
+
+begin
+
+	if(rising_edge(clock)) then
+		if (reset == '1') then
+			cin <= cin+1;
+		end if;
+		cout <= cin;
+end contador;
