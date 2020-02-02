@@ -23,7 +23,7 @@ Component programCounter is
 End Component;
 
 
-Component memoriaInstrucciones is
+Component memoriaInstrucciones is					
     Port (  
 				clock           : in std_logic;
 				Address	       : in natural;
